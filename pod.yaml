@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug-example
+spec:
+  shareProcessNamespace: true
+  containers:
+  - name: main-container
+    image: nginx
+    ports:
+    - containerPort: 80
