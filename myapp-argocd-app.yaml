@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/prnvdas/my-argo.git
     targetRevision: main
-    path: myapp
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: default
